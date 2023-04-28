@@ -6,7 +6,7 @@ const BlogSetting = require('./Models/blogSettingModel');
 const userRoutes = require('./Routes/userRoutes');
 const blogRoute = require('./Routes/blogRoutes');
 
-mongoose.connect("mongodb://54.237.197.221:27017/BMS").then(()=>{
+mongoose.connect("mongodb://3.80.117.113/BMS").then(()=>{
     console.log("Connected to Database on port 27017...")
 }).catch((error) => {
     console.log("Error while connecting to Database!!! ", error)
